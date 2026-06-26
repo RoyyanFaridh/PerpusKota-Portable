@@ -103,4 +103,33 @@
 2026-06-22 08:03:20.668 +07 [4928] HINT:  See C include file "ntstatus.h" for a description of the hexadecimal value.
 2026-06-22 08:03:20.668 +07 [4928] LOG:  terminating any other active server processes
 2026-06-22 08:03:20.677 +07 [4928] LOG:  received fast shutdown request
-^C
+^C2026-06-22 14:37:39.853 +07 [32224] LOG:  starting PostgreSQL 18.4 on x86_64-windows, compiled by msvc-19.44.35227, 64-bit
+2026-06-22 14:37:39.858 +07 [32224] LOG:  listening on IPv6 address "::1", port 5435
+2026-06-22 14:37:39.858 +07 [32224] LOG:  listening on IPv4 address "127.0.0.1", port 5435
+2026-06-22 14:37:39.925 +07 [28580] LOG:  database system was interrupted; last known up at 2026-06-22 08:03:13 +07
+2026-06-22 14:37:41.849 +07 [28580] LOG:  database system was not properly shut down; automatic recovery in progress
+2026-06-22 14:37:41.854 +07 [28580] LOG:  redo starts at 0/1D84990
+2026-06-22 14:37:41.854 +07 [28580] LOG:  invalid record length at 0/1D84A98: expected at least 24, got 0
+2026-06-22 14:37:41.854 +07 [28580] LOG:  redo done at 0/1D84A60 system usage: CPU: user: 0.00 s, system: 0.00 s, elapsed: 0.00 s
+2026-06-22 14:37:41.858 +07 [26640] LOG:  checkpoint starting: end-of-recovery immediate wait
+2026-06-22 14:37:41.867 +07 [26640] LOG:  checkpoint complete: wrote 0 buffers (0.0%), wrote 3 SLRU buffers; 0 WAL file(s) added, 0 removed, 0 recycled; write=0.002 s, sync=0.002 s, total=0.010 s; sync files=2, longest=0.001 s, average=0.001 s; distance=0 kB, estimate=0 kB; lsn=0/1D84A98, redo lsn=0/1D84A98
+2026-06-22 14:37:41.876 +07 [32224] LOG:  database system is ready to accept connections
+2026-06-22 15:28:10.045 +07 [32224] LOG:  background worker "logical replication launcher" (PID 25376) was terminated by exception 0xC000013A
+2026-06-22 15:28:10.045 +07 [32224] HINT:  See C include file "ntstatus.h" for a description of the hexadecimal value.
+2026-06-22 15:28:10.046 +07 [32224] LOG:  terminating any other active server processes
+2026-06-22 15:28:10.053 +07 [32224] LOG:  all server processes terminated; reinitializing
+^C2026-06-22 19:03:36.797 +07 [24940] LOG:  starting PostgreSQL 18.4 on x86_64-windows, compiled by msvc-19.44.35227, 64-bit
+2026-06-22 19:03:36.808 +07 [24940] LOG:  listening on IPv6 address "::1", port 5435
+2026-06-22 19:03:36.808 +07 [24940] LOG:  listening on IPv4 address "127.0.0.1", port 5435
+2026-06-22 19:03:36.979 +07 [18380] LOG:  database system was interrupted; last known up at 2026-06-22 14:37:41 +07
+2026-06-22 19:03:41.395 +07 [18380] LOG:  database system was not properly shut down; automatic recovery in progress
+2026-06-22 19:03:41.406 +07 [18380] LOG:  redo starts at 0/1D84B10
+2026-06-22 19:03:41.406 +07 [18380] LOG:  invalid record length at 0/1D84B48: expected at least 24, got 0
+2026-06-22 19:03:41.406 +07 [18380] LOG:  redo done at 0/1D84B10 system usage: CPU: user: 0.00 s, system: 0.00 s, elapsed: 0.00 s
+2026-06-22 19:03:41.416 +07 [27308] LOG:  checkpoint starting: end-of-recovery immediate wait
+2026-06-22 19:03:41.436 +07 [27308] LOG:  checkpoint complete: wrote 0 buffers (0.0%), wrote 3 SLRU buffers; 0 WAL file(s) added, 0 removed, 0 recycled; write=0.006 s, sync=0.004 s, total=0.023 s; sync files=2, longest=0.002 s, average=0.002 s; distance=0 kB, estimate=0 kB; lsn=0/1D84B48, redo lsn=0/1D84B48
+2026-06-22 19:03:41.458 +07 [24940] LOG:  database system is ready to accept connections
+2026-06-22 22:57:41.931 +07 [24940] LOG:  background worker "logical replication launcher" (PID 31284) was terminated by exception 0xC000013A
+2026-06-22 22:57:41.931 +07 [24940] HINT:  See C include file "ntstatus.h" for a description of the hexadecimal value.
+2026-06-22 22:57:41.932 +07 [24940] LOG:  terminating any other active server processes
+2026-06-22 22:57:41.940 +07 [24940] LOG:  received fast shutdown request
